@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "11c585e8-f6cc-463f-8ea9-3ba87bfb1c12"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -27,9 +30,22 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/all.css",
+              "src/assets/css/style.css",
+              "src/assets/css/components.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.3.1.min.js",
+              "src/assets/js/popper.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/jquery.nicescroll.min.js",
+              "src/assets/js/moment.min.js",
+              "src/assets/js/stisla.js",
+              "src/assets/js/scripts.js",
+              "src/assets/js/custom.js"
+            ]
           },
           "configurations": {
             "production": {
